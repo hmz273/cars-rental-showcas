@@ -18,7 +18,7 @@ const NavBar = () => {
           />
         </Link>
 
-        <div className="sm:flex hidden">
+        <div className="">
           {isUserLoggedIn ? (
             <div className="flex gap-3 md:gap-5">
               <Link href="/dash">
